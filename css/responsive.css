@@ -1,0 +1,189 @@
+@media screen and (min-width: 992px) and (max-width:1200px) {
+
+    /* base */
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: .835rem;
+    }
+
+    /* base */
+
+    /* movie_series */
+
+    .view .servers .server ul li a {
+        font-size: 20px;
+    }
+
+    .seasons .season ul li a {
+        font-size: 14px;
+    }
+
+    .seasons .avg-rating p {
+        font-size: 20px;
+    }
+
+    /* movie_series */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+    /* home */
+
+    .movies .movie-poster .poster-movie {
+        height: 300px;
+    }
+
+    .movies .play {
+        top: 40%;
+        right: 34%;
+    }
+
+    /* home */
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 1200px) {
+
+    /* home */
+
+    .popular-movies p {
+        font-size: 14px;
+    }
+
+    /* home*/
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    /* movies_series */
+
+    .view .episodes li a {
+        font-size: 15px;
+    }
+
+    .view .servers .server section:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .view .servers .server ul li a {
+        font-size: 15px;
+    }
+
+    .seasons .season ul li a {
+        font-size: 14px;
+    }
+
+    /* movies_series */
+}
+
+@media screen and (max-width: 992px) {
+
+    /* home */
+
+    .movies .watch {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: auto;
+        font-size: 15px;
+        height: 25px;
+        overflow: hidden;
+    }
+
+    /* home */
+
+}
+
+@media screen and (min-width: 992px) {
+
+    /* movies_series */
+
+    .my-6 {
+        margin: 4.5rem 0 !important;
+    }
+
+    /* movies_series */
+}
+
+@media screen and (min-width: 768px) {
+
+    .view .servers {
+        margin-right: 16.6666666667%;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+
+    /* home */
+
+    .movies .play {
+        right: 27%;
+    }
+
+    /* home */
+
+    /* movies_series */
+
+    .poster .title {
+        font-size: 25px !important;
+    }
+
+    .poster .rating {
+        font-size: 15px !important;
+    }
+
+    .view .servers .server section:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .view .servers .server ul li a {
+        font-size: 15px;
+    }
+
+    /* movies_series */
+}
+
+@media screen and (max-width:768px) {
+
+    /* movies_series */
+
+    .poster .sub-trailer {
+        flex-direction: column-reverse;
+    }
+
+    .view .row {
+        flex-direction: column-reverse;
+    }
+
+    .view .episodes li a {
+        font-size: 15px;
+    }
+
+    /* movies_series */
+}
+
+@media screen and (max-width: 576px) {
+
+    /* home */
+
+    .movies .play {
+        right: 32%;
+    }
+
+    /* home */
+
+    /* movie_series */
+
+    .view .servers .server section:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .view .servers .server ul li a {
+        font-size: 15px;
+    }
+
+    /* movie_series */
+
+}

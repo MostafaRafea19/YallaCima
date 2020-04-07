@@ -1,0 +1,60 @@
+/* Global Styles */
+
+@font-face {
+    font-family: "Gilroy-Light";
+    src: url("../fonts/Gilroy-Light.otf");
+}
+
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url("../fonts/Gilroy-ExtraBold.otf");
+}
+
+@font-face {
+    font-family: "GESSTextLight-Light";
+    src: url("../fonts/ArbFONTS-GE_SS_TEXT_LIGHT.otf");
+}
+
+@font-face {
+    font-family: "JFFlat-Regular";
+    src: url("../fonts/JF-Flat-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    vertical-align: 0 !important;
+    color: #FFFFFF;
+    font-family: Gilroy-Light,
+        AdobeInvisFont,
+        MyriadPro-Regular;
+}
+
+body {
+    background-color: #181516;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.border_radius {
+    border-radius: 10px;
+}
+
+.active-ep,
+.active-server {
+    background-color: #C43A50 !important;
+}
+
+/*.my-6 {
+    margin: 4.5rem 0;
+}*/
+
+/* Global Styles */

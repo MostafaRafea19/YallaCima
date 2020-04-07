@@ -1,0 +1,185 @@
+/* Popular Movies */
+
+.popular-movies {
+    background: linear-gradient(to bottom, rgb(28, 16, 25, 0.9) 0,
+            rgb(28, 16, 25, 0.9) 100%),
+        url("../img/home/joker_background.png");
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10rem 0 8rem;
+}
+
+.popular-movies p {
+    color: #FEFEFF;
+    font-family: JFFlat-Regular,
+        AdobeInvisFont,
+        MyriadPro-Regular;
+    font-size: 17px;
+    text-align: center;
+    height: 25px;
+    overflow: hidden;
+}
+
+.popular-movies span {
+    font-family: Gilroy-Light,
+        AdobeInvisFont,
+        MyriadPro-Regular;
+    font-size: 18px;
+    background: -webkit-linear-gradient(#C23C45, #CB3569);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #C33B49;
+    border-radius: 5px;
+}
+
+.popular-movies .movie {
+    position: relative;
+}
+
+.popular-movies .movie img:nth-child(2) {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    filter: invert(72%) sepia(57%) saturate(565%) hue-rotate(341deg) brightness(101%) contrast(90%);
+}
+
+
+
+/* Popular Movies */
+
+/* Movies */
+
+.movies .movie-poster {
+    position: relative;
+    padding: 5px 8px !important;
+}
+
+.movies .movie-poster .poster-movie {
+    width: 100%;
+    height: 238px;
+    object-fit: cover;
+}
+
+.movies .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(23, 23, 23, 0.7) 0,
+            rgba(23, 23, 23, 0.7) 100%);
+    margin: auto;
+}
+
+.movies .download {
+    position: absolute !important;
+    top: 10%;
+    right: 20%;
+    width: 19px;
+    height: 19px;
+}
+
+.movies .play {
+    position: absolute !important;
+    top: 35%;
+    right: 30%;
+    width: 74px;
+    height: 74px;
+}
+
+.movies .rate {
+    position: absolute !important;
+    top: 70%;
+    width: 84.21052632%;
+    height: auto;
+}
+
+.movies .watch {
+    position: absolute;
+    bottom: 0;
+    font-family: JFFlat-Regular,
+        AdobeInvisFont,
+        MyriadPro-Regular;
+    font-size: 0.625rem;
+    width: 160px;
+    overflow: hidden;
+}
+
+.movies .overlay,
+.movies .download,
+.movies .play,
+.movies .rate,
+.movies .watch {
+    display: none;
+}
+
+.movies .movie-poster:hover .overlay {
+    display: block;
+    cursor: pointer;
+}
+
+.movies .movie-poster:hover .download {
+    display: block;
+}
+
+.movies .movie-poster:hover .play {
+    display: block;
+}
+
+.movies .movie-poster:hover .rate {
+    display: flex;
+    justify-content: center;
+}
+
+.movies .movie-poster:hover .watch {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+
+    .movies .movie-poster .poster-movie {
+        width: 200px;
+        height: 17rem;
+        object-fit: cover;
+    }
+
+    .movies .movie {
+        width: 80%;
+        height: 80%;
+    }
+
+}
+
+/* Movies */
+
+/* Pages */
+
+.pages a {
+    color: #FFFFFF;
+    font-family: Gilroy-ExtraBold,
+        AdobeInvisFont,
+        MyriadPro-Regular;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    width: 2rem;
+    height: 2rem;
+}
+
+.pages a.active-page {
+    color: #311620;
+    background-color: #CACACA;
+}
+
+/* Pages */
+
+/* Carousel */
+
+.carousel-controller {
+    top: 35%;
+}
+
+/* Carousel */

@@ -1,0 +1,150 @@
+/* Navigation Bar */
+
+.navbar {
+    background-color: #181516 !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-brand {
+    font-size: 49px;
+    color: #FEFEFE !important;
+    font-family: "Gilroy-Light", AdobeInvisFont, MyriadPro-Regular;
+}
+
+.navbar-brand span {
+    background: -webkit-linear-gradient(#C23C45, #CB3569);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Gilroy-ExtraBold';
+}
+
+.navbar-nav .nav-item {
+    margin: 0 2px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'GESSTextLight-Light',
+        MyriadArabic-Regular,
+        AdobeInvisFont,
+        MyriadPro-Regular;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #AEADAD;
+}
+
+.navbar .form-inline {
+    flex-wrap: nowrap;
+}
+
+.navbar .form-inline .form-control {
+    background-color: #272727;
+    border: none;
+    color: #AEADAD;
+    height: 27px;
+}
+
+.navbar .form-inline input.form-control {
+    width: 78px;
+    border-radius: 0 15px 15px 0;
+}
+
+.navbar .form-inline a.form-control {
+    border-radius: 15px 0 0 15px;
+    cursor: pointer !important;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+.navbar img {
+    -webkit-filter: invert(29%) sepia(18%) saturate(5933%) hue-rotate(309deg) brightness(93%) contrast(91%);
+    filter: invert(29%) sepia(18%) saturate(5933%) hue-rotate(309deg) brightness(93%) contrast(91%);
+}
+
+.navbar img:hover {
+    opacity: 0.5;
+}
+
+.navbar .form-inline .form-control:focus {
+    box-shadow: none;
+}
+
+.navbar .user {
+    color: #B93E32;
+    cursor: pointer;
+}
+
+.navbar .form-inline a.form-control:hover,
+.navbar .user:hover {
+    color: #AEADAD;
+}
+
+.navbar-toggler-icon {
+    background-color: #BE3E35 !important;
+    height: 0.15rem;
+    margin: 3px 0;
+    display: block;
+}
+
+.form-control {
+    width: auto;
+}
+
+/* Navigation Bar */
+
+
+
+/* Carousel */
+
+.carousel-controller {
+    height: fit-content;
+    top: 40%;
+    opacity: 1;
+}
+
+/*.watched .carousel .carousel-controller .img-control {
+    width: 3.8vw !important;
+    height: 3.8vw !important;
+}*/
+
+/* Carousel */
+
+/* Footer */
+
+footer {
+    background-color: #141112;
+
+}
+
+footer section:nth-child(1) a,
+footer p {
+    color: #FFFFFF;
+    font-family: JFFlat-Regular,
+        MyriadArabic-Regular,
+        AdobeInvisFont,
+        MyriadPro-Regular;
+    font-size: 15px
+}
+
+footer h3 {
+    color: #989898;
+    font-size: 34px;
+    font-family: Gilroy-Light,
+        AdobeInvisFont,
+        MyriadPro-Regular;
+}
+
+footer h3 span {
+    color: #989898;
+    font-family: Gilroy-ExtraBold,
+        Gilroy-Light,
+        AdobeInvisFont,
+        MyriadPro-Regular;
+}
+
+/* Footer */
